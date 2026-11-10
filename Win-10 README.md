@@ -25,7 +25,7 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 
    ![](Screenshot_2026-11-10-17-46-55-301_com.google.android.youtube~2.jpg)
 
-   ![]()
+   ![](Screenshot_2026-11-10-17-47-11-553_com.google.android.youtube~2.jpg)
 
    ![]()
 
