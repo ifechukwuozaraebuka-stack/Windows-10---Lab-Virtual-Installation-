@@ -32,12 +32,12 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
    - OS Version: Windows 10 (64-bit)
    - Proceed with Unattended Installation: left unticked
 
-   ![](images/01-virtualbox-name-and-os.png)
+   ![](01-virtualbox-name-and-os.png)
 
 3. **Setting the hardware.**
    Under "Specify virtual hardware" I set Base Memory to 4608 MB and the Number of CPUs to 2. "Use EFI" stays unticked.
 
-   ![](images/02-virtualbox-hardware.png)
+   ![](02-virtualbox-hardware.png)
 
 4. **Setting the virtual disk to 50 GB.**
    Under "Specify virtual hard disk" I made the disk 50 GB, then clicked **Finish**.
@@ -46,16 +46,16 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 5. **Starting the VM and open Windows Setup.**
    The VM boots from the ISO. I kept English (United States) for the language and time format, and US for the keyboard, then clicked **Next**.
 
-   ![](images/03-setup-language.png)
+   ![](03-setup-language.png)
 
    Then I clicked **Install now**.
 
-   ![](images/04-setup-install-now.png)
+   ![](04-setup-install-now.png)
 
 6. **Choose the edition.**
    I selected **Windows 10 Pro** from the list and clicked **Next**.
 
-   ![](images/05-setup-select-edition.png)
+   ![](05-setup-select-edition.png)
 
 7. **Choose where to install.**
    Windows Setup listed the new virtual disk as one block of unallocated space (50 GB). I selected it and clicked **Next**.
@@ -63,14 +63,14 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 8. **Wait for the installation.**
    Setup copied the files, installed features and updates, and restarted the VM.
 
-   ![](images/06-installing-windows.png)
+   ![](06-installing-windows.png)
 
-   ![](images/07-first-boot.png)
+   ![](07-first-boot.png)
 
 9. **Reach the desktop.**
    After the restarts, the VM booted to the Windows 10 desktop.
 
-   ![](images/08-windows-desktop.png)
+   ![](08-windows-desktop.png)
 
 ---
 
