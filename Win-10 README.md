@@ -23,7 +23,13 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 1. **Making the Windows 10 ISO.**
    I ran the Windows 10 Media Creation Tool and clicked Yes on the User Account Control prompt. On the "What do you want to do?" screen I picked the second option, **Create installation media for another PC**, not "Upgrade this PC now". Picking "Upgrade this PC now" would have changed my real computer. I saved the result as an ISO file, `Windowas.iso`, in my Downloads folder.
 
-2. **Creating the VM.**
+   ![](Screenshot_2026-11-10-17-46-55-301_com.google.android.youtube~2.jpg)
+
+   ![]()
+
+   ![]()
+
+3. **Creating the VM.**
    In VirtualBox I clicked **New** and filled in the first section of the wizard:
    - VM Name: `Windows Lab-10`
    - VM Folder: the default `VirtualBox VMs` folder
@@ -34,16 +40,16 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 
    ![](01-virtualbox-name-and-os.png)
 
-3. **Setting the hardware.**
+4. **Setting the hardware.**
    Under "Specify virtual hardware" I set Base Memory to 4608 MB and the Number of CPUs to 2. "Use EFI" stays unticked.
 
    ![](02-virtualbox-hardware.png)
 
-4. **Setting the virtual disk to 50 GB.**
+5. **Setting the virtual disk to 50 GB.**
    Under "Specify virtual hard disk" I made the disk 50 GB, then clicked **Finish**.
 
 
-5. **Starting the VM and open Windows Setup.**
+6. **Starting the VM and open Windows Setup.**
    The VM boots from the ISO. I kept English (United States) for the language and time format, and US for the keyboard, then clicked **Next**.
 
    ![](03-setup-language.png)
@@ -52,22 +58,22 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 
    ![](04-setup-install-now.png)
 
-6. **Choose the edition.**
+7. **Choose the edition.**
    I selected **Windows 10 Pro** from the list and clicked **Next**.
 
    ![](05-setup-select-edition.png)
 
-7. **Choose where to install.**
+8. **Choose where to install.**
    Windows Setup listed the new virtual disk as one block of unallocated space (50 GB). I selected it and clicked **Next**.
 
-8. **Wait for the installation.**
+9. **Wait for the installation.**
    Setup copied the files, installed features and updates, and restarted the VM.
 
    ![](06-installing-windows.png)
 
    ![](07-first-boot.png)
 
-9. **Reach the desktop.**
+10. **Reach the desktop.**
    After the restarts, the VM booted to the Windows 10 desktop.
 
    ![](08-windows-desktop.png)
