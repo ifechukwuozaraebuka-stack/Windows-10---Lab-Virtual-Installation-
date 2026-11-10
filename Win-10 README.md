@@ -27,8 +27,7 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 
    ![](Screenshot_2026-11-10-17-47-11-553_com.google.android.youtube~2.jpg)
 
-   ![]()
-
+   
 3. **Creating the VM.**
    In VirtualBox I clicked **New** and filled in the first section of the wizard:
    - VM Name: `Windows Lab-10`
@@ -48,6 +47,8 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 5. **Setting the virtual disk to 50 GB.**
    Under "Specify virtual hard disk" I made the disk 50 GB, then clicked **Finish**.
 
+![](file_000000001fcc81f48bd4fa58ce583241.png)
+
 
 6. **Starting the VM and open Windows Setup.**
    The VM boots from the ISO. I kept English (United States) for the language and time format, and US for the keyboard, then clicked **Next**.
@@ -65,6 +66,9 @@ A Windows 10 Pro virtual machine, built in VirtualBox on my own laptop. I made t
 
 8. **Choose where to install.**
    Windows Setup listed the new virtual disk as one block of unallocated space (50 GB). I selected it and clicked **Next**.
+
+![](file_000000001fcc81f48bd4fa58ce583241.png)
+
 
 9. **Wait for the installation.**
    Setup copied the files, installed features and updates, and restarted the VM.
